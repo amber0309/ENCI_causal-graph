@@ -16,9 +16,10 @@ In MATLAB, change your *current folder* to "ENCI_graph/code" and run the file *e
 
 The test does the following:
 1. it generate 1000 groups of a causal graph of 4 variables and put all groups in a MATLAB *cell array*.
-(Each group is a L by 4 matrix where L is the number of points ranging from 40 to 50.)
+(Each group is a L by 4 matrix where L is the number of points ranging from 40 to 50. The synthetic causal graph generated is shown below.)
 2. ENCI is applied on the generated data set to infer the causal structure.
 
+![Generated synthetic causal graph](https://user-images.githubusercontent.com/9404561/38377065-9f2e7626-392c-11e8-9599-ef406e56b4e7.PNG)
 
 ## Apply on your data
 
