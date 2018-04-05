@@ -1,5 +1,22 @@
 function [X, sklt] = gen_toy(ngrp, md, g_sz, ntype)
+%{
+Input
+ngrp  - the number of groups
+md    - additive ('ad') or multiplicative ('ml') causal mechanism
+g_sz  - minimum number of points in each group
+ntype - distribution of the noise
 
+Output
+X       - the cell of all groups of data
+sklt    - matrix representing the true causal structure
+
+Usage
+[X, sklt] = gen_toy(1000, 'ml', 40, 'gmm')
+[X, sklt] = gen_toy(1000, 'ad', 40, 'uni')
+
+Shoubo (shoubo.sub AT gmail.com)
+04/04/2018
+%}
 net_data = cell(1, ngrp);
 net_sklt = [-1, 1, 2, 2];
 nvar = length(net_sklt);
