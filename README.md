@@ -12,7 +12,7 @@ We test the code using **MATLAB R2017b** on windows. Any later version should st
 
 ## Running the tests
 
-In MATLAB, change your *current folder* to "ENCI_graph/code" and run the file *example.m* to see whether it could work normally.
+In MATLAB, change your *current folder* to "ENCI_graph/code" and run the file *example.m* to see whether it could run normally.
 
 The test does the following:
 1. it generate 1000 groups of a causal graph of 4 variables and put all groups in a MATLAB *cell array*.
