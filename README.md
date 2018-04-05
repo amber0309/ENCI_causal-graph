@@ -19,7 +19,7 @@ The test does the following:
 (Each group is a L by 4 matrix where L is the number of points ranging from 40 to 50. The synthetic causal graph generated is shown below.)
 2. ENCI is applied on the generated data set to infer the causal structure.
 
-![Generated synthetic causal graph](https://user-images.githubusercontent.com/9404561/38377065-9f2e7626-392c-11e8-9599-ef406e56b4e7.PNG)
+![Generated synthetic causal graph](https://user-images.githubusercontent.com/9404561/38377065-9f2e7626-392c-11e8-9599-ef406e56b4e7.PNG){:height="50%" width="50%"}
 
 ## Apply on your data
 
