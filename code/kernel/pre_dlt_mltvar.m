@@ -12,7 +12,6 @@ dlt   - 1 by dim matrix
 
 dim = size(XY{1}, 2);
 dimz = size(Z{1}, 2);
-feature_type = ['numeric'];
 
 xyall = cat(1,XY{:});
 
@@ -34,9 +33,9 @@ end
 
 for j = 1:dim
     if dimz == 1
-        dlt(1,j) = median_dist(xyall(1:n, j), zall(1:n, 1), feature_type);
+        dlt(1,j) = median_dist(xyall(1:n, j), zall(1:n, 1));
     else
-        dlt(1,j) = median_dist(xyall(1:n, j), zall(1:n, j), feature_type);
+        dlt(1,j) = median_dist(xyall(1:n, j), zall(1:n, j));
     end
 end
 

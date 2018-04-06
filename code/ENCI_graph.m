@@ -21,7 +21,7 @@ Usage
 Shoubo (shoubo.sub AT gmail.com)
 05/04/2018
 %}
-addpath('cd');
+addpath('kernel');
 narg = nargin;
 X = varargin{1};
 
@@ -31,10 +31,17 @@ X_tensor = pre_tensor(X, 1);
 if narg == 1
     prc = -1;
     rcl = -1;
+	fprintf('\n');
+	fprintf('Estimated causal structure.\n');
+    B
 else
     Bori = varargin{2};
     prc = length(find((Bori(:)~=0) & (B(:)~=0))) / length(find((B(:)~=0)));
     rcl = length(find((Bori(:)~=0) & (B(:)~=0))) / length(find((Bori(:)~=0)));
+	fprintf('\n');
+	fprintf('Estimated causal structure.\n');
+    B
+    fprintf('Edge estimation\n precision: %f, recall: %f. \n', prc, rcl);
 end
 
 end
