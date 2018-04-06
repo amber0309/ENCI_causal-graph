@@ -1,6 +1,6 @@
 # Kernel Embedding-based Nonstationary Causal Model Inference
 
-MATLAB code of causal discovery algorithm for **causal graphs** proposed in paper *A Kernel Embedding–Based Approach for Nonstationary Causal Model Inference* (ENCI).
+MATLAB code of causal discovery algorithm for **causal graphs** proposed in paper [A Kernel Embedding–Based Approach for Nonstationary Causal Model Inference](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01064) (ENCI).
 
 ## Getting Started
 
