@@ -32,8 +32,6 @@ Change your current folder to "ENCI_graph/code" and use the following commands
 [B, prc, rcl] = ENCI_graph(X)
 ```
 
-### Notes
-
 Input of function **ENCI_graph()**
 
 | Argument  | Description  |
