@@ -1,4 +1,4 @@
-function MM = mean_dist_n(S1, S2)
+function MM = mean_dist(S1, S2)
 
 num_of_feature = size(S1,2); 
 tempMM = zeros(1,num_of_feature); %store median of each column

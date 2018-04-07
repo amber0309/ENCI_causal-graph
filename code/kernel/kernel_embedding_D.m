@@ -1,4 +1,4 @@
-function D = kernel_embedding_D_n(data, data_sr)
+function D = kernel_embedding_D(data, data_sr)
 
 %data is a L * m_x matrix
 %data_sr is a L * m_x matrix
