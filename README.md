@@ -50,7 +50,7 @@ Output of function **ENCI_graph()**
 
 ## Authors
 
-* **Shoubo Hu** - shoubo.sub@gmail.com
+* **Shoubo Hu** - shoubo DOT sub AT gmail DOT com
 
 See also the list of [contributors](https://github.com/amber0309/ENCI_graph/contributors) who participated in this project.
 
