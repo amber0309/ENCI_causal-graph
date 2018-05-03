@@ -2,9 +2,8 @@ function D = kernel_embedding_D(data, data_sr)
 
 %data is a L * m_x matrix
 %data_sr is a L * m_x matrix
-%feature_type is a m_x * 1 vector
 
-%output K is a 3d array (L,L,m_x)
+%output D is a 3d array (L,L,m_x)
 len1 = size(data,1); %number of rows in data
 len2 = size(data_sr,1); %number of rows in data_sr
 
