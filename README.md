@@ -56,8 +56,8 @@ See also the list of [contributors](https://github.com/amber0309/ENCI_graph/cont
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-* Hat tip to [Shohei Shimizu](https://sites.google.com/site/sshimizu06/) for his elegant [LiNGAM](https://www.cs.helsinki.fi/u/ahyvarin/papers/JMLR06.pdf) code
+* Hat tip to [Shohei Shimizu](https://sites.google.com/site/sshimizu06/) for his elegant [LiNGAM](https://www.cs.helsinki.fi/u/ahyvarin/papers/JMLR06.pdf) code.
